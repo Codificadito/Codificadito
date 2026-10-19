@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-banner.svg" alt="José Manuel Zúñiga — AI Engineering, QA and AppSec" width="100%" />
+  <img src="assets/profile-banner-animated.svg" alt="José Manuel Zúñiga — AI Engineering, QA and AppSec" width="100%" />
 </p>
 
 <p align="center">
