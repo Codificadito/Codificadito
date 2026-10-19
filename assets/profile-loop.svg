@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="72" viewBox="0 0 900 72" role="img" aria-labelledby="title desc">
+  <title id="title">Lo que construyo</title>
+  <desc id="desc">Mensajes animados sobre calidad, inteligencia artificial y seguridad.</desc>
+  <defs><linearGradient id="accent" x1="0" x2="1"><stop stop-color="#67e8f9"/><stop offset="1" stop-color="#a5b4fc"/></linearGradient></defs>
+  <g font-family="'SFMono-Regular',Consolas,monospace" font-size="20" font-weight="600" text-anchor="middle" fill="url(#accent)">
+    <g><text x="450" y="42">De reparar electrónica a crear software confiable<tspan fill="#67e8f9">▍</tspan></text><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.20;0.25;0.95;1" dur="16s" repeatCount="indefinite"/></g>
+    <g opacity="0"><text x="450" y="42">QA Automation | calidad que se puede comprobar<tspan fill="#67e8f9">▍</tspan></text><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.20;0.25;0.45;0.50;1" dur="16s" repeatCount="indefinite"/></g>
+    <g opacity="0"><text x="450" y="42">LLMs, RAG y agentes con evaluación humana<tspan fill="#67e8f9">▍</tspan></text><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.45;0.50;0.70;0.75;1" dur="16s" repeatCount="indefinite"/></g>
+    <g opacity="0"><text x="450" y="42">AppSec | aplicaciones más seguras<tspan fill="#67e8f9">▍</tspan></text><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.70;0.75;0.95;1;1" dur="16s" repeatCount="indefinite"/></g>
+  </g>
+  <path d="M80 62H820" stroke="#24344a" stroke-width="2" stroke-linecap="round"/><path d="M80 62H820" stroke="url(#accent)" stroke-width="2" stroke-linecap="round" stroke-dasharray="180 740"><animate attributeName="stroke-dashoffset" values="920;0" dur="16s" repeatCount="indefinite"/></path>
+</svg>
