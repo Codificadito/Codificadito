@@ -27,6 +27,12 @@ Trabajo en calidad de sistemas internos, aplicaciones web y productos embebidos.
 | [🎬 **Anolis Studio**](https://github.com/Codificadito/anolis-studio) | Editor de video web con timeline no lineal, renderizado con Remotion y asistencia de IA. |
 | 🚗 **Mi Auto · en desarrollo** | Proyecto personal para organizar el mantenimiento, el historial y los recordatorios de cada vehículo. |
 
+## Proyectos en acción
+
+<p align="center"><a href="https://github.com/treseko/treseko-platform"><img src="https://raw.githubusercontent.com/treseko/treseko-platform/main/screenshots/dashboard.png" alt="Vista real del dashboard de calidad de Treseko" width="100%" /></a></p>
+
+<p align="center"><sub>Treseko · gestión de calidad, ejecuciones y resultados · <a href="https://github.com/treseko/treseko-platform">Explorar el proyecto</a></sub></p>
+
 ## En qué trabajo
 
 **IA aplicada** · LLMs, RAG híbrido, embeddings, agentes y uso de herramientas.  
