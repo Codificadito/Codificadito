@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/profile-hero.svg" alt="José Manuel Zúñiga — AI Engineering, QA and AppSec" width="100%" /></p>
 
-<p align="center"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1500&color=67E8F9&center=true&vCenter=true&width=820&lines=Del+prototipo+al+producto+confiable;QA+Automation+%7C+calidad+que+se+puede+comprobar;LLMs%2C+RAG+y+agentes+con+evaluaci%C3%B3n;AppSec+%7C+software+m%C3%A1s+confiable" alt="De la electrónica a IA aplicada, QA Automation y AppSec" /></p>
+<p align="center"><img src="assets/profile-loop.svg" alt="De la electrónica a IA aplicada, QA Automation y AppSec" /></p>
 
 <p align="center"><a href="https://www.biuler.com"><img alt="Portfolio" src="https://img.shields.io/badge/PORTFOLIO-biuler.com-0EA5E9?style=flat-square&logo=googlechrome&logoColor=white" /></a> <a href="https://www.biuler.com/cv/Jose-manuel-zuniga/"><img alt="CV" src="https://img.shields.io/badge/CV-ver_experiencia-334155?style=flat-square&logo=readthedocs&logoColor=white" /></a> <a href="https://www.linkedin.com/in/jose-manuel-zuniga/"><img alt="LinkedIn" src="https://img.shields.io/badge/LINKEDIN-conectemos-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a></p>
 
