@@ -1,25 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">José Manuel Zúñiga — AI Engineering, QA and AppSec</title>
-  <desc id="desc">Dark navy technology banner with cyan and violet abstract connected nodes.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#08111f"/><stop offset=".55" stop-color="#111b34"/><stop offset="1" stop-color="#102a43"/></linearGradient>
-    <linearGradient id="glow" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
-    <radialGradient id="orb"><stop stop-color="#22d3ee" stop-opacity=".24"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
-  </defs>
-  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
-  <circle cx="980" cy="175" r="260" fill="url(#orb)"/>
-  <g fill="none" stroke="url(#glow)" stroke-opacity=".32" stroke-width="1.5">
-    <path d="M730 65 825 105 925 52 1030 104 1140 60M700 170 810 210 910 158 1025 216 1155 170M740 285 835 247 950 306 1050 250 1155 290"/>
-    <path d="M825 105 810 210 835 247M925 52 910 158 950 306M1030 104 1025 216 1050 250M1140 60 1155 170 1155 290"/>
-    <circle cx="810" cy="210" r="96"/><circle cx="1025" cy="216" r="142"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="420" viewBox="0 0 1440 420" role="img" aria-labelledby="title desc">
+<title id="title">José Manuel Zúñiga — IA aplicada, calidad y seguridad</title>
+<desc id="desc">Banner animado con una interfaz de ingeniería de IA, una red neuronal luminosa y señales de calidad y seguridad.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070b14"/><stop offset=".58" stop-color="#101a2b"/><stop offset="1" stop-color="#10162a"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#60e8ff"/><stop offset=".52" stop-color="#718cff"/><stop offset="1" stop-color="#bd7cff"/></linearGradient>
+  <linearGradient id="beam"><stop stop-color="#48dff5" stop-opacity="0"/><stop offset=".5" stop-color="#48dff5" stop-opacity=".75"/><stop offset="1" stop-color="#a27bff" stop-opacity="0"/></linearGradient>
+  <radialGradient id="core"><stop stop-color="#d7fbff"/><stop offset=".12" stop-color="#53dcf8"/><stop offset=".48" stop-color="#2563eb" stop-opacity=".7"/><stop offset="1" stop-color="#6d28d9" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#9ab5d4" opacity=".2"/></pattern>
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="clip"><rect width="1440" height="420" rx="30"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+  <rect width="1440" height="420" fill="url(#bg)"/>
+  <rect width="1440" height="420" fill="url(#dots)" opacity=".55"/>
+  <path d="M850 0h590v420H850c72-80 34-120 88-210S816 87 850 0Z" fill="#0b1323" opacity=".78"/>
+  <path d="M850 0c-34 87 142 120 88 210S922 340 850 420" fill="none" stroke="url(#edge)" stroke-opacity=".28" stroke-width="1.5"/>
+  <text x="84" y="90" fill="#69e8f9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" letter-spacing="4">AI ENGINEERING  /  SOFTWARE QUALITY  /  APPSEC</text>
+  <text x="80" y="177" fill="#f5f8ff" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="58" font-weight="700">José Manuel</text>
+  <text x="80" y="242" fill="#f5f8ff" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="58" font-weight="700">Zúñiga<tspan fill="#68e5fa">.</tspan></text>
+  <text x="84" y="292" fill="#b6c4d7" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20">Construyo productos con IA que se pueden evaluar y usar con confianza.</text>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.5">
+    <rect x="84" y="334" width="112" height="34" rx="17" fill="#13243a" stroke="#58dcf4" stroke-opacity=".55"/><text x="109" y="356" fill="#a8f2ff">LLM · RAG</text>
+    <rect x="208" y="334" width="102" height="34" rx="17" fill="#171f3b" stroke="#798fff" stroke-opacity=".55"/><text x="229" y="356" fill="#bbc5ff">QA · EVALS</text>
+    <rect x="322" y="334" width="102" height="34" rx="17" fill="#211d3b" stroke="#ba83ff" stroke-opacity=".55"/><text x="344" y="356" fill="#dfc2ff">APPSEC</text>
   </g>
-  <g fill="#07111f" stroke="url(#glow)" stroke-width="3">
-    <circle cx="730" cy="65" r="5"/><circle cx="825" cy="105" r="6"/><circle cx="925" cy="52" r="5"/><circle cx="1030" cy="104" r="6"/><circle cx="1140" cy="60" r="5"/>
-    <circle cx="700" cy="170" r="5"/><circle cx="810" cy="210" r="8"/><circle cx="910" cy="158" r="5"/><circle cx="1025" cy="216" r="8"/><circle cx="1155" cy="170" r="5"/>
-    <circle cx="740" cy="285" r="5"/><circle cx="835" cy="247" r="6"/><circle cx="950" cy="306" r="5"/><circle cx="1050" cy="250" r="6"/><circle cx="1155" cy="290" r="5"/>
+  <g transform="translate(1115 208)">
+    <circle r="145" fill="#182957" opacity=".34"/>
+    <circle r="120" fill="none" stroke="#6989ff" stroke-opacity=".28" stroke-width="1"/>
+    <circle r="91" fill="none" stroke="#64dcf4" stroke-opacity=".32" stroke-width="1.4" stroke-dasharray="3 9"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="45s" repeatCount="indefinite"/></circle>
+    <ellipse rx="115" ry="46" fill="none" stroke="url(#edge)" stroke-opacity=".65" stroke-width="1.5" transform="rotate(-28)"/>
+    <ellipse rx="115" ry="46" fill="none" stroke="#7b8cff" stroke-opacity=".35" stroke-width="1.2" transform="rotate(52)"/>
+    <circle r="74" fill="url(#core)" filter="url(#glow)" opacity=".85"><animate attributeName="r" values="70;78;70" dur="4s" repeatCount="indefinite"/></circle>
+    <circle r="13" fill="#e8fbff" filter="url(#glow)"/>
+    <circle cx="-88" cy="-76" r="5" fill="#67e8f9" filter="url(#glow)"><animate attributeName="opacity" values=".4;1;.4" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="89" cy="-64" r="5" fill="#a78bfa" filter="url(#glow)"><animate attributeName="opacity" values="1;.35;1" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="80" cy="79" r="4" fill="#67e8f9" filter="url(#glow)"><animate attributeName="opacity" values=".35;1;.35" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="-95" cy="65" r="4" fill="#c4b5fd" filter="url(#glow)"><animate attributeName="opacity" values="1;.4;1" dur="3.8s" repeatCount="indefinite"/></circle>
   </g>
-  <text x="76" y="124" fill="#67e8f9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="5">AI ENGINEERING  /  QUALITY  /  SECURITY</text>
-  <text x="72" y="202" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="54" font-weight="700">José Manuel Zúñiga</text>
-  <text x="76" y="250" fill="#bac8dc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="22">LLMs · RAG · Agentes · QA Automation · AppSec</text>
-  <rect x="76" y="286" width="118" height="4" rx="2" fill="url(#glow)"/>
+  <g transform="translate(965 75)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#98abc8">
+    <rect width="128" height="58" rx="12" fill="#0b1220" stroke="#3f5677" stroke-opacity=".75"/>
+    <circle cx="17" cy="18" r="4" fill="#60e8ff"/><text x="29" y="22">eval.run()</text>
+    <path d="M16 39h38M60 39h22M88 39h24" stroke="#597191" stroke-width="3" stroke-linecap="round"/>
+    <path d="M15 39h27" stroke="#60e8ff" stroke-width="3" stroke-linecap="round"><animate attributeName="x1" values="15;55;15" dur="4s" repeatCount="indefinite"/><animate attributeName="x2" values="42;82;42" dur="4s" repeatCount="indefinite"/></path>
+  </g>
+  <path d="M885 399H1370" stroke="url(#beam)" stroke-width="2"><animate attributeName="opacity" values=".25;.9;.25" dur="5s" repeatCount="indefinite"/></path>
+</g>
 </svg>
